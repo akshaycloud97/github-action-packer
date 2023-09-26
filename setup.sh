@@ -18,7 +18,7 @@ cat <<EOF > /var/www/html/index.php
 <?php
 \$output = shell_exec('hostname');
 echo "<h1><center><pre>\$output</pre></center></h1>";
-echo "<h1><center> Zomato Production Application Version 8 </center></h1>";
+echo "<h1><center> Zomato Production Application Version 9 </center></h1>";
 ?>
 EOF
 
